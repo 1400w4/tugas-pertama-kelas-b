@@ -1,5 +1,6 @@
 * {
   box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
 }
 
 header {
@@ -46,7 +47,7 @@ main .show__me {
 
 .forget__your {
   position: relative;
-  margin-right: 300px;
+  margin-right: 100px;
 }
 
 .forget__your h2 {
@@ -61,7 +62,8 @@ main .show__me {
 .forget__your button {
   background-color: #3252df;
   color: white;
-  border: none;
+  border: 1px solid #3252df;
+  border-radius: 5px;
   padding-left: 50px;
   padding-right: 50px;
   padding-bottom: 10px;
@@ -83,4 +85,235 @@ main .show__me {
 .travel span {
   color: #152c5b;
   font-weight: bold;
+}
+
+/* Second Row Css */
+
+main .container {
+  padding-left: auto;
+  padding-right: auto;
+  width: max-content;
+  margin-top: 100px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.container h3 {
+  color: #152c5b;
+}
+
+.container h4 {
+  color: #152c5b;
+}
+
+.sample {
+  display: flex;
+  flex-direction: row;
+  margin-right: auto;
+  margin-left: auto;
+  border-radius: 15px;
+}
+
+.places {
+  display: flex;
+  flex-direction: row;
+  margin-right: 30px;
+}
+
+.extend {
+  margin: auto;
+  padding: auto;
+}
+
+.first_box {
+  position: relative;
+  margin-right: 30px;
+}
+
+.absolute {
+  position: absolute;
+  width: 180px;
+  height: 40px;
+  border-radius: 0px 15px;
+  top: 0px;
+  right: 0px;
+  background-color: #ff498b;
+}
+
+.absolute p {
+  text-align: center;
+  margin: auto;
+  padding-top: 10px;
+  color: #ffffff;
+}
+
+.absolute_text {
+  position: absolute;
+  height: 70px;
+  width: 300px;
+  bottom: 10px;
+  left: 0px;
+}
+
+.absolute_text h3 {
+  text-align: left;
+  margin: auto;
+  margin-left: 10px;
+  color: #152c5b;
+}
+
+.absolute_text p {
+  text-align: left;
+  margin: auto;
+  margin-left: 10px;
+  padding-top: 10px;
+  color: #152c5b;
+}
+
+.absolute span {
+  font-weight: bold;
+}
+
+.second_box {
+  position: relative;
+  margin-top: auto;
+  margin-bottom: 30px;
+  margin-left: auto;
+  margin-right: 30px;
+}
+
+.third_box {
+  position: relative;
+  margin-top: auto;
+  margin-bottom: 30px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.fourth_box {
+  position: relative;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: auto;
+  margin-right: 30px;
+}
+
+.fifth_box {
+  position: relative;
+  margin: auto;
+}
+
+/* Third-fifth Row Css */
+
+.box1 {
+  position: relative;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: auto;
+  margin-right: 30px;
+}
+
+.box2 {
+  position: relative;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: auto;
+  margin-right: 30px;
+}
+
+.box3 {
+  position: relative;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: auto;
+  margin-right: 30px;
+}
+
+.box4 {
+  position: relative;
+  margin: auto;
+}
+
+.paragraf_color {
+  color: #b0b0b0;
+}
+
+/* Sixth Row Css */
+
+main .rating {
+  position: relative;
+  padding-left: auto;
+  padding-right: auto;
+  width: max-content;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.checked {
+  color: yellow;
+}
+
+.box_img {
+  position: relative;
+  margin: auto;
+}
+
+.box_img img {
+  border-radius: 15px 15px 100px 15px;
+}
+
+.frame {
+  position: absolute;
+  width: 356.13px;
+  height: 486.75px;
+  bottom: 60px;
+  right: 650px;
+  border: 1px solid #e5e5e5;
+  border-radius: 15px;
+  background-color: #ffffff;
+}
+
+.box_text {
+  position: relative;
+  margin-left: 100px;
+  width: 500px;
+}
+
+.box_text h3 {
+  color: #152c5b;
+}
+
+.box_text h2 {
+  color: #152c5b;
+}
+
+.box_text p {
+  color: #152c5b;
+}
+
+.sample .box_text button {
+  background-color: #3252df;
+  color: white;
+  border: 1px solid #3252df;
+  border-radius: 5px;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  margin-top: 30px;
+}
+
+/* Footer */
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: content;
+  border-top: 2px solid #b0b0b0;
+}
+
+.grow_box {
+  flex-grow: 1;
+  margin-left: 125px;
 }
