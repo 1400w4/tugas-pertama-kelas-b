@@ -308,12 +308,32 @@ main .rating {
 /* Footer */
 footer {
   display: flex;
+  flex-direction: column;
   justify-content: space-between;
   align-items: content;
   border-top: 2px solid #b0b0b0;
 }
 
+footer p {
+  color: #b0b0b0;
+}
+
+.container_footer {
+  display: flex;
+  flex-direction: row;
+  margin-top: 30px;
+}
+
 .grow_box {
   flex-grow: 1;
-  margin-left: 125px;
+}
+
+.grow_box h3 {
+  color: #152c5b;
+}
+
+.grow_column {
+  flex-grow: 1;
+  text-align: center;
+  margin-top: 30px;
 }
